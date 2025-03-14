@@ -1,5 +1,25 @@
+const toggleBtn = document.getElementById('toggle-btn');
+const navBar = document.getElementById('nav-bar');
+const navLinks = document.querySelectorAll('#nav-bar a');
+
+toggleBtn.addEventListener('click', (e) => {
+  navBar.classList.toggle('active');
+  e.stopPropagation(); 
+});
+
+document.addEventListener('click', (e) => {
+  if (navBar.classList.contains('active') && e.target !== navBar && e.target !== toggleBtn) {
+    navBar.classList.remove('active');
+  }
+});
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navBar.classList.remove('active');
+  });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
-  // Smooth scrolling with active link highlight
   const navLinks = document.querySelectorAll("nav ul li a");
 
   navLinks.forEach((link) => {
