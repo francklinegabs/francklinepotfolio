@@ -1,0 +1,351 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --primary-color: #00d4ff;
+  --secondary-color: #ffd700;
+  --background-color: #0d0d2b;
+  --text-color: #ffffff;
+  --box-color: #1a1a3d;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Navigation Bar */
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(13, 13, 43, 0.95);
+  padding: 20px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+/* Hero Section */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 100px 10%;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-content span {
+  color: var(--primary-color);
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+/* Section Boxes */
+.section-box {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.section-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: var(--box-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.skill img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Projects Section */
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background: var(--box-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: var(--primary-color);
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+/* Experience Section */
+.experience-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.experience {
+  background: var(--box-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+/* Connect with Me Section */
+.connect {
+  padding: 1.5rem 5%;
+  background: #0d0d2b; /* Outermost container in Dark Blue */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.connect .heading {
+  font-size: 2.5rem;
+  color: yellow; /* Heading text in Yellow */
+  margin-bottom: 2rem;
+}
+
+.connect-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.connect-box {
+  flex: 1 1 18rem;
+  background: #1a1a3d; /* Social media card background */
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.connect-box img {
+  width: 50px; /* Adjusted logo size */
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.connect-box h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.connect-btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: deepskyblue; /* Button color in Deep Sky Blue */
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.connect-btn:hover {
+  background: yellow; /* Button turns Yellow on hover */
+  color: black;
+}
+
+.connect-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 50px 20px;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 50px 20px;
+}
+
+/* Centering and Styling the Heading */
+#testimonials h2 {
+  font-size: 2rem;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 50px 20px;
+}
+
+/* Centering and Styling the Heading */
+#testimonials h2 {
+  font-size: 2rem;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Testimonials Container (Horizontal Layout) */
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Testimonial */
+.testimonial {
+  background-color: #1a1a3d;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonial Text */
+.testimonial p {
+  font-style: italic;
+  color: #ddd;
+  font-size: 1rem;
+}
+
+/* Testimonial Name */
+.testimonial h4 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a0a24;
+}
