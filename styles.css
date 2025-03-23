@@ -21,6 +21,7 @@
 body {
   background: var(--background-color);
   color: var(--text-color);
+  width: 100%;
 }
 
 /* Navigation Bar */
@@ -99,10 +100,7 @@ nav ul li a:hover {
   width: 400px;
   border-radius: 10px;
 }
-body {
-  font-family: Arial, sans-serif;
-  margin-top: 50px;
-}
+
 
 .whatsapp-button {
   display: inline-block;
@@ -348,4 +346,62 @@ footer {
   text-align: center;
   padding: 20px;
   background: #0a0a24;
+}
+#nav-bar {
+  display: none; 
+}
+
+#nav-bar.active {
+  display: block; 
+}
+
+@media (min-width: 768px) {
+  #nav-bar {
+    display: flex; 
+  }
+}
+#toggle-btn {
+  display: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  #toggle-btn {
+    display: block;
+  }
+
+  #nav-bar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #nav-bar.active {
+    display: flex;
+  }
+
+  #nav-bar li {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width:600px) {
+.hero-image{
+  margin-bottom: 50%;
+}
+  #hero{
+   display: block;
+  }
+  #about h2{
+    margin-top: 130%;
+  }
 }
