@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.style.transform = "scale(1)";
     });
 
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click," () => {
       btn.style.backgroundColor = "#ffd700";
       setTimeout(() => {
         btn.style.backgroundColor = "#00d4ff";
