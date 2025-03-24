@@ -2,7 +2,7 @@ ESLint Report
 
 File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\script.js
   [22, 27] Strings must use singlequote. (quotes)
-  [22, 47] Function has too many statements (28). Maximum allowed is 20. (max-statements)
+  [22, 47] Function has too many statements (max-statements)
   [23, 46] Strings must use singlequote. (quotes)
   [26, 27] Strings must use singlequote. (quotes)
   [28, 42] Strings must use singlequote. (quotes)
@@ -60,4 +60,7 @@ File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\script.js
   [177, 30] Strings must use singlequote. (quotes)
   [177, 46] Strings must use singlequote. (quotes)
   [178, 35] Strings must use singlequote. (quotes)
+
+File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\index.html
+  [1, 10] Parsing error: '>' expected. (null)
 
