@@ -183,6 +183,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
-document.getElementById("toggle-btn").addEventListener("click", function () {
-  document.querySelector("nav ul").classList.toggle("active");
-});
