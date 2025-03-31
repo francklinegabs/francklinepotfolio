@@ -1,8 +1,5 @@
 ESLint Report
 
-File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\index.html
-  [1, 10] Parsing error: '>' expected. (null)
-
 File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\script.js
   [1, 43] Strings must use singlequote. (quotes)
   [2, 40] Strings must use singlequote. (quotes)
@@ -76,4 +73,7 @@ File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\script.js
 
 File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\styles.css
   [2, 1] Parsing error: Expression expected. (null)
+
+File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\index.html
+  [1, 10] Parsing error: '>' expected. (null)
 
