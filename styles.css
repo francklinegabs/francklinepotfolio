@@ -358,25 +358,6 @@ nav ul li a:hover {
 }
 
 /* Buttons */
-.btn, .connect-btn {
-    cursor: pointer; /* Makes it clear the button is clickable */
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50; /* Green background */
-    color: white;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.btn:hover, .connect-btn:hover {
-    background-color: #45a049; /* Slightly darker green on hover */
-    transform: scale(1.05); /* Slight zoom effect */
-}
-
-.btn:active, .connect-btn:active {
-    transform: scale(0.98); /* Button press effect */
-}
 
 .btn {
   display: inline-block;
