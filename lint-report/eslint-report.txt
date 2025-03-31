@@ -64,3 +64,6 @@ File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\script.js
 File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\index.html
   [1, 10] Parsing error: '>' expected. (null)
 
+File: c:\Users\CHEBET JOCELYNE\OneDrive\Desktop\francklinepotfolio\styles.css
+  [2, 1] Parsing error: Expression expected. (null)
+
