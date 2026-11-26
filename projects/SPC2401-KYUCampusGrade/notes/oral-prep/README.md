@@ -68,3 +68,4 @@ One question per card, answered from this project's own design and measured resu
 50. [How did we prove the deadlock and the fix?](50-how-did-we-prove-the-deadlock-and-the-fix.md)
 51. [4.3 (i): throughput with one thread?](51-4-3-i-throughput-with-one-thread.md)
 52. [4.3 (ii): how many kernel threads keep the CPU busy?](52-4-3-ii-how-many-kernel-threads-keep-the-cpu-busy.md)
+53. [4.3 (iii): user-level threads where a disk read blocks the process?](53-4-3-iii-user-level-threads-where-a-disk-read-block.md)
