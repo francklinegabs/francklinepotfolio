@@ -61,3 +61,4 @@ One question per card, answered from this project's own design and measured resu
 ## Section 4 – Synchronisation and invocation cost
 
 45. [What is wrong with lines (1)-(3) of the given submitMark?](45-what-is-wrong-with-lines-1-3-of-the-given-submitma.md)
+46. [How big was the lost update in practice?](46-how-big-was-the-lost-update-in-practice.md)
