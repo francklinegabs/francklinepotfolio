@@ -40,3 +40,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 22. [What problem does RequestDeduplicator solve?](22-what-problem-does-requestdeduplicator-solve.md)
 23. [How does begin() guarantee only one winner?](23-how-does-begin-guarantee-only-one-winner.md)
 24. [What does a duplicate do while the original is still running?](24-what-does-a-duplicate-do-while-the-original-is-sti.md)
+25. [What happens if the original fails before storing?](25-what-happens-if-the-original-fails-before-storing.md)
