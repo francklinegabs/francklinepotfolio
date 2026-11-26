@@ -58,3 +58,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 40. [State the four conditions for deadlock using 4.2.](40-state-the-four-conditions-for-deadlock-using-4-2.md)
 41. [Why does RMI make this deadlock permanent?](41-why-does-rmi-make-this-deadlock-permanent.md)
 42. [Give two other valid fixes for 4.2 besides ours.](42-give-two-other-valid-fixes-for-4-2-besides-ours.md)
+43. [4.3: why exactly 3 threads in (ii)?](43-4-3-why-exactly-3-threads-in-ii.md)
