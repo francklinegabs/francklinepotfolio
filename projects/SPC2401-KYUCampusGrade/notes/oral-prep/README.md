@@ -107,3 +107,4 @@ One question per card, answered from this project's own design and measured resu
 80. [What does the four-process integration test prove?](80-what-does-the-four-process-integration-test-prove.md)
 81. [What did 22 lecturer processes submitting at once show?](81-what-did-22-lecturer-processes-submitting-at-once.md)
 82. [What did experiment A1 (server killed before storing) show?](82-what-did-experiment-a1-server-killed-before-storin.md)
+83. [What did experiment A2 (server killed after storing) show?](83-what-did-experiment-a2-server-killed-after-storing.md)
