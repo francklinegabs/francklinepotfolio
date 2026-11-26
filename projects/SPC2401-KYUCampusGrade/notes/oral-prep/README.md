@@ -63,3 +63,4 @@ One question per card, answered from this project's own design and measured resu
 45. [What is wrong with lines (1)-(3) of the given submitMark?](45-what-is-wrong-with-lines-1-3-of-the-given-submitma.md)
 46. [How big was the lost update in practice?](46-how-big-was-the-lost-update-in-practice.md)
 47. [Why is the key sid + unit a bug?](47-why-is-the-key-sid-unit-a-bug.md)
+48. [Explain the deadlock in 4.2 in one breath.](48-explain-the-deadlock-in-4-2-in-one-breath.md)
