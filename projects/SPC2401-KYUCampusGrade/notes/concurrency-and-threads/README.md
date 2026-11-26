@@ -19,3 +19,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 10. [Why not thread-per-object?](10-why-not-thread-per-object.md)
 11. [How does the RMI thread hand work to my pool?](11-how-does-the-rmi-thread-hand-work-to-my-pool.md)
 12. [How are worker threads named and why?](12-how-are-worker-threads-named-and-why.md)
+13. [Why is the CPU simulated with a busy loop and not sleep?](13-why-is-the-cpu-simulated-with-a-busy-loop-and-not.md)
