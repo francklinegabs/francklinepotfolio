@@ -19,3 +19,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 
 8. [What does KyuClientSocketFactory do on every new socket?](08-what-does-kyuclientsocketfactory-do-on-every-new-s.md)
 9. [In which JVM does the socket factory run?](09-in-which-jvm-does-the-socket-factory-run.md)
+10. [Why does the factory need equals and hashCode?](10-why-does-the-factory-need-equals-and-hashcode.md)
