@@ -79,3 +79,4 @@ One question per card, answered from this project's own design and measured resu
 58. [Map the registry and the spare CPUs onto Amoeba.](58-map-the-registry-and-the-spare-cpus-onto-amoeba.md)
 59. [What are the four fields of an Amoeba capability?](59-what-are-the-four-fields-of-an-amoeba-capability.md)
 60. [How is a read-only capability made for students?](60-how-is-a-read-only-capability-made-for-students.md)
+61. [Why can a student not turn READ into READ+WRITE?](61-why-can-a-student-not-turn-read-into-read-write.md)
