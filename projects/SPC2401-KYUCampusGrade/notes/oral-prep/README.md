@@ -9,3 +9,4 @@ One question per card, answered from this project's own design and measured resu
 3. [Why does every remote method declare RemoteException?](03-why-does-every-remote-method-declare-remoteexcepti.md)
 4. [What is the stub in Java RMI today?](04-what-is-the-stub-in-java-rmi-today.md)
 5. [What does the registry store?](05-what-does-the-registry-store.md)
+6. [Why rebind instead of bind?](06-why-rebind-instead-of-bind.md)
