@@ -67,3 +67,4 @@ One question per card, answered from this project's own design and measured resu
 49. [Which of the four deadlock conditions does our fix break?](49-which-of-the-four-deadlock-conditions-does-our-fix.md)
 50. [How did we prove the deadlock and the fix?](50-how-did-we-prove-the-deadlock-and-the-fix.md)
 51. [4.3 (i): throughput with one thread?](51-4-3-i-throughput-with-one-thread.md)
+52. [4.3 (ii): how many kernel threads keep the CPU busy?](52-4-3-ii-how-many-kernel-threads-keep-the-cpu-busy.md)
