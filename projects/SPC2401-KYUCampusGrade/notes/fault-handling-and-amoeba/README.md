@@ -6,3 +6,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 
 1. [In what order does Config look up a value?](01-in-what-order-does-config-look-up-a-value.md)
 2. [How is a key turned into an environment variable name?](02-how-is-a-key-turned-into-an-environment-variable-n.md)
+3. [Which properties file does Config read, and can it be changed?](03-which-properties-file-does-config-read-and-can-it.md)
