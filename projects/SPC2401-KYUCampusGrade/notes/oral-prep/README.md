@@ -92,3 +92,4 @@ One question per card, answered from this project's own design and measured resu
 68. [Why are Lease and MarkRecord immutable?](68-why-are-lease-and-markrecord-immutable.md)
 69. [Why does MarkRecord have withPublished?](69-why-does-markrecord-have-withpublished.md)
 70. [Why does GradeServiceImpl have no synchronized methods?](70-why-does-gradeserviceimpl-have-no-synchronized-met.md)
+71. [What is applyLock for, then?](71-what-is-applylock-for-then.md)
