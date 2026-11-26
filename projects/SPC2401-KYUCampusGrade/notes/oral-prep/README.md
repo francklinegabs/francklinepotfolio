@@ -35,3 +35,4 @@ One question per card, answered from this project's own design and measured resu
 ## Section 2 – Notification and middleware
 
 25. [What are our three notification event types?](25-what-are-our-three-notification-event-types.md)
+26. [Why push the event but pull the mark?](26-why-push-the-event-but-pull-the-mark.md)
