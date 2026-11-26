@@ -34,3 +34,7 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 22. [Why does D03 not assert a specific loss for the original?](22-why-does-d03-not-assert-a-specific-loss-for-the-or.md)
 23. [What helpers did I add in TestSupport?](23-what-helpers-did-i-add-in-testsupport.md)
 24. [What does MarkStoreTest U05 check?](24-what-does-markstoretest-u05-check.md)
+
+## Section 3 – OS types, processes and threads
+
+25. [Rate a network OS for 'hides where GradeService runs'.](25-rate-a-network-os-for-hides-where-gradeservice-run.md)
