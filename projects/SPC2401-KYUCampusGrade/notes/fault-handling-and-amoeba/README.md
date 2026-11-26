@@ -22,3 +22,7 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 10. [Why does the factory need equals and hashCode?](10-why-does-the-factory-need-equals-and-hashcode.md)
 11. [Why does a read timeout matter for callbacks?](11-why-does-a-read-timeout-matter-for-callbacks.md)
 12. [How does the simulated network delay work?](12-how-does-the-simulated-network-delay-work.md)
+
+## RetryingCaller – timeout, retry, back-off
+
+13. [What does RetryingCaller.call do, in one sentence?](13-what-does-retryingcaller-call-do-in-one-sentence.md)
