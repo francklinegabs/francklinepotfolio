@@ -38,3 +38,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 ## RequestDeduplicator – at-most-once
 
 22. [What problem does RequestDeduplicator solve?](22-what-problem-does-requestdeduplicator-solve.md)
+23. [How does begin() guarantee only one winner?](23-how-does-begin-guarantee-only-one-winner.md)
