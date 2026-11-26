@@ -72,3 +72,7 @@ One question per card, answered from this project's own design and measured resu
 54. [Why do more threads than in (ii) not help?](54-why-do-more-threads-than-in-ii-not-help.md)
 55. [4.4: cost of one call, three sequential calls, three concurrent calls?](55-4-4-cost-of-one-call-three-sequential-calls-three.md)
 56. [What does LRPC remove for a call on the same machine?](56-what-does-lrpc-remove-for-a-call-on-the-same-machi.md)
+
+## Section 5 – Amoeba
+
+57. [Map the lecturer's PC and the server host onto Amoeba.](57-map-the-lecturer-s-pc-and-the-server-host-onto-amo.md)
