@@ -30,3 +30,4 @@ One question per card, answered from this project's own design and measured resu
 21. [How does a String parameter travel?](21-how-does-a-string-parameter-travel.md)
 22. [How does the StudentListener parameter travel?](22-how-does-the-studentlistener-parameter-travel.md)
 23. [A RemoteException with 'Connection refused': was the mark stored?](23-a-remoteexception-with-connection-refused-was-the.md)
+24. [A RemoteException with 'Connection reset' during the call: was the mark stored?](24-a-remoteexception-with-connection-reset-during-the.md)
