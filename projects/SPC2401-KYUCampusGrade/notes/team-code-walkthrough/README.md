@@ -9,3 +9,4 @@ The oral check can ask any member about any part, so these cards walk through my
 3. [What does put() return and why?](03-what-does-put-return-and-why.md)
 4. [How does publish() know a unit is 'already published'?](04-how-does-publish-know-a-unit-is-already-published.md)
 5. [Why does studentsIn() return a copy?](05-why-does-studentsin-return-a-copy.md)
+6. [Why does list() sort by student ID?](06-why-does-list-sort-by-student-id.md)
