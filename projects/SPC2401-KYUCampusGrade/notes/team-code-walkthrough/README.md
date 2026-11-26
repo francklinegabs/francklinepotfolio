@@ -19,3 +19,4 @@ The oral check can ask any member about any part, so these cards walk through my
 10. [How are errors from a worker passed back?](10-how-are-errors-from-a-worker-passed-back.md)
 11. [What happens when server.workers is 0?](11-what-happens-when-server-workers-is-0.md)
 12. [How does the simulated CPU cost work?](12-how-does-the-simulated-cpu-cost-work.md)
+13. [How does the simulated disk cost work?](13-how-does-the-simulated-disk-cost-work.md)
