@@ -80,3 +80,4 @@ One question per card, answered from this project's own design and measured resu
 59. [What are the four fields of an Amoeba capability?](59-what-are-the-four-fields-of-an-amoeba-capability.md)
 60. [How is a read-only capability made for students?](60-how-is-a-read-only-capability-made-for-students.md)
 61. [Why can a student not turn READ into READ+WRITE?](61-why-can-a-student-not-turn-read-into-read-write.md)
+62. [What do getreq, putrep and trans do?](62-what-do-getreq-putrep-and-trans-do.md)
