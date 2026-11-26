@@ -42,3 +42,4 @@ One question per card, answered from this project's own design and measured resu
 30. [Calculation: 2,000 callbacks of 50 ms with 20 threads?](30-calculation-2-000-callbacks-of-50-ms-with-20-threa.md)
 31. [Why should publishMarks hand callbacks to a pool?](31-why-should-publishmarks-hand-callbacks-to-a-pool.md)
 32. [Which layer converts a mark into bytes, and which finds GradeService by name?](32-which-layer-converts-a-mark-into-bytes-and-which-f.md)
+33. [Which layer schedules threads and sends TCP packets?](33-which-layer-schedules-threads-and-sends-tcp-packet.md)
