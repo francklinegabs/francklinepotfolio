@@ -42,3 +42,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 24. [What does a duplicate do while the original is still running?](24-what-does-a-duplicate-do-while-the-original-is-sti.md)
 25. [What happens if the original fails before storing?](25-what-happens-if-the-original-fails-before-storing.md)
 26. [How long are request IDs remembered?](26-how-long-are-request-ids-remembered.md)
+27. [Why only purge completed entries?](27-why-only-purge-completed-entries.md)
