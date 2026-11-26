@@ -70,3 +70,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 ## Section 5 – Amoeba
 
 42. [What kind of system is Amoeba?](42-what-kind-of-system-is-amoeba.md)
+43. [What are Amoeba's main kinds of machine?](43-what-are-amoeba-s-main-kinds-of-machine.md)
