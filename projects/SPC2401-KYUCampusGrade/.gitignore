@@ -1,0 +1,19 @@
+# build output and downloaded tools (never commit compiled files)
+/out/
+*.class
+/lib/
+
+# runtime state of a local run (evidence/ keeps its own copies on purpose)
+/logs/
+/data/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# secrets
+*.env
+.env
