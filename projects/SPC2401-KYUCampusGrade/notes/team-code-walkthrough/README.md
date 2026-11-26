@@ -11,3 +11,4 @@ The oral check can ask any member about any part, so these cards walk through my
 5. [Why does studentsIn() return a copy?](05-why-does-studentsin-return-a-copy.md)
 6. [Why does list() sort by student ID?](06-why-does-list-sort-by-student-id.md)
 7. [Which test proves MarkStore loses no updates?](07-which-test-proves-markstore-loses-no-updates.md)
+8. [Does MarkStore ever call a client?](08-does-markstore-ever-call-a-client.md)
