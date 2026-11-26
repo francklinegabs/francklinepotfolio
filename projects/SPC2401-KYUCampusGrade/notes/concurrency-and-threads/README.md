@@ -23,3 +23,7 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 14. [Why is the simulated-core semaphore fair?](14-why-is-the-simulated-core-semaphore-fair.md)
 15. [What is the pool's drawback, and how did we soften it?](15-what-is-the-pool-s-drawback-and-how-did-we-soften.md)
 16. [How would you size the pool from 4.3's numbers?](16-how-would-you-size-the-pool-from-4-3-s-numbers.md)
+
+## My Section 4 reproduction tests
+
+17. [How does D01 make the original code deadlock in a test?](17-how-does-d01-make-the-original-code-deadlock-in-a.md)
