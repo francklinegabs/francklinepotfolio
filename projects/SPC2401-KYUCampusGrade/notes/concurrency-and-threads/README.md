@@ -31,3 +31,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 19. [Why did D01 originally fail with IllegalThreadStateException?](19-why-did-d01-originally-fail-with-illegalthreadstat.md)
 20. [What does D02 show?](20-what-does-d02-show.md)
 21. [What does D03 compare?](21-what-does-d03-compare.md)
+22. [Why does D03 not assert a specific loss for the original?](22-why-does-d03-not-assert-a-specific-loss-for-the-or.md)
