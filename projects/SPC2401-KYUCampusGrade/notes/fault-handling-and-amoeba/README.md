@@ -29,3 +29,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 14. [How is the per-attempt timeout implemented?](14-how-is-the-per-attempt-timeout-implemented.md)
 15. [Why does a timed-out attempt not stop the server?](15-why-does-a-timed-out-attempt-not-stop-the-server.md)
 16. [Which errors are never retried, and why?](16-which-errors-are-never-retried-and-why.md)
+17. [Why drop the cached stub after a failure?](17-why-drop-the-cached-stub-after-a-failure.md)
