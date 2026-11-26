@@ -75,3 +75,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 45. [What replaces the RMI registry in Amoeba?](45-what-replaces-the-rmi-registry-in-amoeba.md)
 46. [What is a capability?](46-what-is-a-capability.md)
 47. [What is the server port in a capability?](47-what-is-the-server-port-in-a-capability.md)
+48. [What is the check field?](48-what-is-the-check-field.md)
