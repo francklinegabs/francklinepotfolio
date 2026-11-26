@@ -12,3 +12,4 @@ One question per card, answered from this project's own design and measured resu
 6. [Why rebind instead of bind?](06-why-rebind-instead-of-bind.md)
 7. [What is the difference between rmiregistry and createRegistry?](07-what-is-the-difference-between-rmiregistry-and-cre.md)
 8. [What is java.rmi.server.hostname for?](08-what-is-java-rmi-server-hostname-for.md)
+9. [What is a custom RMIClientSocketFactory and why do we use one?](09-what-is-a-custom-rmiclientsocketfactory-and-why-do.md)
