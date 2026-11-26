@@ -64,3 +64,4 @@ One question per card, answered from this project's own design and measured resu
 46. [How big was the lost update in practice?](46-how-big-was-the-lost-update-in-practice.md)
 47. [Why is the key sid + unit a bug?](47-why-is-the-key-sid-unit-a-bug.md)
 48. [Explain the deadlock in 4.2 in one breath.](48-explain-the-deadlock-in-4-2-in-one-breath.md)
+49. [Which of the four deadlock conditions does our fix break?](49-which-of-the-four-deadlock-conditions-does-our-fix.md)
