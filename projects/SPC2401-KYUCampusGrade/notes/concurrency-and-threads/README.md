@@ -30,3 +30,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 18. [How does D01 detect the deadlock without hanging the test run?](18-how-does-d01-detect-the-deadlock-without-hanging-t.md)
 19. [Why did D01 originally fail with IllegalThreadStateException?](19-why-did-d01-originally-fail-with-illegalthreadstat.md)
 20. [What does D02 show?](20-what-does-d02-show.md)
+21. [What does D03 compare?](21-what-does-d03-compare.md)
