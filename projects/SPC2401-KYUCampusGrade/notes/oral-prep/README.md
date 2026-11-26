@@ -39,3 +39,4 @@ One question per card, answered from this project's own design and measured resu
 27. [What lease did we choose and how is it renewed?](27-what-lease-did-we-choose-and-how-is-it-renewed.md)
 28. [What happens when a student's laptop sleeps for 2 days?](28-what-happens-when-a-student-s-laptop-sleeps-for-2.md)
 29. [Calculation: 2,000 callbacks of 50 ms one by one?](29-calculation-2-000-callbacks-of-50-ms-one-by-one.md)
+30. [Calculation: 2,000 callbacks of 50 ms with 20 threads?](30-calculation-2-000-callbacks-of-50-ms-with-20-threa.md)
