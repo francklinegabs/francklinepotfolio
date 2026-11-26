@@ -54,3 +54,4 @@ One question per card, answered from this project's own design and measured resu
 39. [Why a worker pool for 2,000 students in 10 minutes?](39-why-a-worker-pool-for-2-000-students-in-10-minutes.md)
 40. [What is the worker pool's drawback and its mitigation?](40-what-is-the-worker-pool-s-drawback-and-its-mitigat.md)
 41. [Thread vs process: what did creating each cost?](41-thread-vs-process-what-did-creating-each-cost.md)
+42. [Thread vs process: what about context switches and crashes?](42-thread-vs-process-what-about-context-switches-and.md)
