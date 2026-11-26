@@ -40,3 +40,4 @@ One question per card, answered from this project's own design and measured resu
 28. [What happens when a student's laptop sleeps for 2 days?](28-what-happens-when-a-student-s-laptop-sleeps-for-2.md)
 29. [Calculation: 2,000 callbacks of 50 ms one by one?](29-calculation-2-000-callbacks-of-50-ms-one-by-one.md)
 30. [Calculation: 2,000 callbacks of 50 ms with 20 threads?](30-calculation-2-000-callbacks-of-50-ms-with-20-threa.md)
+31. [Why should publishMarks hand callbacks to a pool?](31-why-should-publishmarks-hand-callbacks-to-a-pool.md)
