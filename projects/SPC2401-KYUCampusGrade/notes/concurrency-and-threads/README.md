@@ -43,3 +43,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 28. [Rate each OS type for 'scales to 20,000 students'.](28-rate-each-os-type-for-scales-to-20-000-students.md)
 29. [Which OS type did we choose for three servers, in one sentence?](29-which-os-type-did-we-choose-for-three-servers-in-o.md)
 30. [Which transparency is violated when clients switch to a backup by hand?](30-which-transparency-is-violated-when-clients-switch.md)
+31. [Which transparency is violated by different methods for cached and server marks?](31-which-transparency-is-violated-by-different-method.md)
