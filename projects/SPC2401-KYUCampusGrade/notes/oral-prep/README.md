@@ -109,3 +109,4 @@ One question per card, answered from this project's own design and measured resu
 82. [What did experiment A1 (server killed before storing) show?](82-what-did-experiment-a1-server-killed-before-storin.md)
 83. [What did experiment A2 (server killed after storing) show?](83-what-did-experiment-a2-server-killed-after-storing.md)
 84. [What did experiment B (student offline) show?](84-what-did-experiment-b-student-offline-show.md)
+85. [What did experiment C (network delay) show?](85-what-did-experiment-c-network-delay-show.md)
