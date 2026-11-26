@@ -25,3 +25,4 @@ One question per card, answered from this project's own design and measured resu
 16. [Step 4: what does the dispatcher (skeleton) do?](16-step-4-what-does-the-dispatcher-skeleton-do.md)
 17. [Steps 5 and 6: what happens in the implementation and on the reply path?](17-steps-5-and-6-what-happens-in-the-implementation-a.md)
 18. [Why is submitMark at-most-once?](18-why-is-submitmark-at-most-once.md)
+19. [Why is getMark at-least-once?](19-why-is-getmark-at-least-once.md)
