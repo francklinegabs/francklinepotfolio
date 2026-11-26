@@ -100,3 +100,7 @@ One question per card, answered from this project's own design and measured resu
 76. [How does getMark decide which exception to throw?](76-how-does-getmark-decide-which-exception-to-throw.md)
 77. [What does GradeServer do on shutdown?](77-what-does-gradeserver-do-on-shutdown.md)
 78. [How does ServerSettings avoid hard-coding?](78-how-does-serversettings-avoid-hard-coding.md)
+
+## Testing and evidence
+
+79. [How many automated tests are there and how are they split?](79-how-many-automated-tests-are-there-and-how-are-the.md)
