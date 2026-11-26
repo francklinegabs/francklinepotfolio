@@ -38,3 +38,4 @@ The oral check can ask any member about any part, so these cards walk through my
 23. [What happens when one callback fails?](23-what-happens-when-one-callback-fails.md)
 24. [What is a PublishReport?](24-what-is-a-publishreport.md)
 25. [Why does publishMarks return before the callbacks finish?](25-why-does-publishmarks-return-before-the-callbacks.md)
+26. [How long did a dead student take to fail in experiment B?](26-how-long-did-a-dead-student-take-to-fail-in-experi.md)
