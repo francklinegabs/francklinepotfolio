@@ -15,3 +15,4 @@ One question per card, answered from this project's own design and measured resu
 9. [What is a custom RMIClientSocketFactory and why do we use one?](09-what-is-a-custom-rmiclientsocketfactory-and-why-do.md)
 10. [What is distributed garbage collection in RMI?](10-what-is-distributed-garbage-collection-in-rmi.md)
 11. [Which JVM thread runs a remote method?](11-which-jvm-thread-runs-a-remote-method.md)
+12. [Why are there two kinds of exceptions in our API?](12-why-are-there-two-kinds-of-exceptions-in-our-api.md)
