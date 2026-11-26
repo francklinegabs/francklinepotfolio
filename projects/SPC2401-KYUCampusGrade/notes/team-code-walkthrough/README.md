@@ -16,3 +16,4 @@ The oral check can ask any member about any part, so these cards walk through my
 ## WorkerPool
 
 9. [What does WorkerPool.execute do?](09-what-does-workerpool-execute-do.md)
+10. [How are errors from a worker passed back?](10-how-are-errors-from-a-worker-passed-back.md)
