@@ -51,3 +51,4 @@ One question per card, answered from this project's own design and measured resu
 36. [Two lecturers' updates overwrote each other. Which transparency?](36-two-lecturers-updates-overwrote-each-other-which-t.md)
 37. [A replica shows old marks after an update. Which transparency?](37-a-replica-shows-old-marks-after-an-update-which-tr.md)
 38. [Why choose a network OS plus middleware for three servers?](38-why-choose-a-network-os-plus-middleware-for-three.md)
+39. [Why a worker pool for 2,000 students in 10 minutes?](39-why-a-worker-pool-for-2-000-students-in-10-minutes.md)
