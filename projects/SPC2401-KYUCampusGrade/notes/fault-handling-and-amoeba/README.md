@@ -73,3 +73,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 43. [What are Amoeba's main kinds of machine?](43-what-are-amoeba-s-main-kinds-of-machine.md)
 44. [What is the processor pool and how would KYU use it?](44-what-is-the-processor-pool-and-how-would-kyu-use-i.md)
 45. [What replaces the RMI registry in Amoeba?](45-what-replaces-the-rmi-registry-in-amoeba.md)
+46. [What is a capability?](46-what-is-a-capability.md)
