@@ -14,3 +14,7 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 5. [What does one EventLog line look like?](05-what-does-one-eventlog-line-look-like.md)
 6. [Where does EventLog write?](06-where-does-eventlog-write.md)
 7. [Why is the write method synchronized?](07-why-is-the-write-method-synchronized.md)
+
+## KyuClientSocketFactory – timeouts and simulated delay
+
+8. [What does KyuClientSocketFactory do on every new socket?](08-what-does-kyuclientsocketfactory-do-on-every-new-s.md)
