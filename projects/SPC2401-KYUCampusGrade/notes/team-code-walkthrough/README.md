@@ -45,3 +45,4 @@ The oral check can ask any member about any part, so these cards walk through my
 ## StudentClient
 
 29. [How does the student client become reachable for callbacks?](29-how-does-the-student-client-become-reachable-for-c.md)
+30. [When does the student renew its lease?](30-when-does-the-student-renew-its-lease.md)
