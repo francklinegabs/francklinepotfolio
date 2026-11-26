@@ -89,3 +89,4 @@ One question per card, answered from this project's own design and measured resu
 ## My code (WP1)
 
 67. [What does Validation check, and why before any work?](67-what-does-validation-check-and-why-before-any-work.md)
+68. [Why are Lease and MarkRecord immutable?](68-why-are-lease-and-markrecord-immutable.md)
