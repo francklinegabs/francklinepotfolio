@@ -70,3 +70,4 @@ The oral check can ask any member about any part, so these cards walk through my
 46. [How did we stop anyone pushing straight to main?](46-how-did-we-stop-anyone-pushing-straight-to-main.md)
 47. [Why must each member commit with their own GitHub e-mail?](47-why-must-each-member-commit-with-their-own-github.md)
 48. [Why merge pull requests with a merge commit?](48-why-merge-pull-requests-with-a-merge-commit.md)
+49. [What does the v1.0 tag mark?](49-what-does-the-v1-0-tag-mark.md)
