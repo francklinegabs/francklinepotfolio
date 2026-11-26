@@ -41,3 +41,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 26. [Rate a distributed OS for 'each campus server stays autonomous'.](26-rate-a-distributed-os-for-each-campus-server-stays.md)
 27. [Rate a multiprocessor OS for 'survives one node failing'.](27-rate-a-multiprocessor-os-for-survives-one-node-fai.md)
 28. [Rate each OS type for 'scales to 20,000 students'.](28-rate-each-os-type-for-scales-to-20-000-students.md)
+29. [Which OS type did we choose for three servers, in one sentence?](29-which-os-type-did-we-choose-for-three-servers-in-o.md)
