@@ -65,3 +65,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 38. [Why is at-most-once harder than at-least-once?](38-why-is-at-most-once-harder-than-at-least-once.md)
 39. [Why is exactly-once impossible to promise in general?](39-why-is-exactly-once-impossible-to-promise-in-gener.md)
 40. [Cause 1 in 1.4: server down. Mark stored? Client action?](40-cause-1-in-1-4-server-down-mark-stored-client-acti.md)
+41. [Cause 2 in 1.4: connection lost mid-call. Mark stored? Client action?](41-cause-2-in-1-4-connection-lost-mid-call-mark-store.md)
