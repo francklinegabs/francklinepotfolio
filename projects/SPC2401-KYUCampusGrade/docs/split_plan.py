@@ -12,13 +12,23 @@ MEMBERS = {
     "WP5": ("Jeff Njuguna", "CT101/G/18097/23", "Testing and evaluation"),
 }
 
+# Real GitHub accounts (no-reply e-mails link commits to the account without exposing private mail).
+GITHUB = {
+    "WP1": ("francklinegabs", "151562242+francklinegabs@users.noreply.github.com"),
+    "WP2": ("Kyrie-ML", "299208418+Kyrie-ML@users.noreply.github.com"),
+    "WP3": ("gikarueunice", "271707942+gikarueunice@users.noreply.github.com"),
+    "WP4": ("odiwuor-ashley", "181076415+odiwuor-ashley@users.noreply.github.com"),
+    "WP5": ("JustJeff-hub", "180539728+JustJeff-hub@users.noreply.github.com"),
+}
+REPO_URL = "https://github.com/francklinegabs/SPC2401-Group12"
+
 S = "src/ke/ac/kyu/campusgrade/"
 T = "tests/ke/ac/kyu/campusgrade/"
 
 # Merge order. Each entry is one pull request; main compiles after every merge.
 PULL_REQUESTS = [
     {
-        "wp": "WP1", "n": 1, "branch": "feature/rmi-core", "reviewer": "WP2",
+        "wp": "WP1", "n": 1, "branch": "feature/rmi-core", "reviewer": "WP4", "issue": 1, "github_pr": 8,
         "title": "Repository skeleton and RMI remote interfaces",
         "commits": [
             ("Create folder layout, .gitignore, TEAM.md and team docs",
@@ -38,7 +48,7 @@ PULL_REQUESTS = [
         ],
     },
     {
-        "wp": "WP4", "n": 1, "branch": "feature/fault-handling", "reviewer": "WP3",
+        "wp": "WP4", "n": 1, "branch": "feature/fault-handling", "reviewer": "WP3", "issue": 2, "github_pr": 9,
         "title": "Configuration, failure log, retry and at-most-once support",
         "commits": [
             ("Read host and port from configuration",
@@ -54,7 +64,7 @@ PULL_REQUESTS = [
         ],
     },
     {
-        "wp": "WP3", "n": 1, "branch": "feature/concurrency", "reviewer": "WP4",
+        "wp": "WP3", "n": 1, "branch": "feature/concurrency", "reviewer": "WP4", "issue": 3, "github_pr": 10,
         "title": "Thread-safe marks store and worker pool",
         "commits": [
             ("Add MarkStore with a read-write lock and (student, unit) key", [S + "server/MarkStore.java"]),
@@ -63,7 +73,7 @@ PULL_REQUESTS = [
         ],
     },
     {
-        "wp": "WP2", "n": 1, "branch": "feature/notification", "reviewer": "WP1",
+        "wp": "WP2", "n": 1, "branch": "feature/notification", "reviewer": "WP1", "issue": 4, "github_pr": 11,
         "title": "Leased subscriptions, notifier pool and student client",
         "commits": [
             ("Add SubscriptionManager with leases and expiry", [S + "server/SubscriptionManager.java"]),
@@ -73,7 +83,7 @@ PULL_REQUESTS = [
         ],
     },
     {
-        "wp": "WP1", "n": 2, "branch": "feature/grade-service", "reviewer": "WP5",
+        "wp": "WP1", "n": 2, "branch": "feature/grade-service", "reviewer": "WP5", "issue": 5, "github_pr": 12,
         "title": "GradeService implementation and server start-up",
         "commits": [
             ("Add server settings read from configuration", [S + "server/ServerSettings.java"]),
@@ -83,7 +93,7 @@ PULL_REQUESTS = [
         ],
     },
     {
-        "wp": "WP3", "n": 2, "branch": "feature/section4-tests", "reviewer": "WP4",
+        "wp": "WP3", "n": 2, "branch": "feature/section4-tests", "reviewer": "WP4", "issue": 6, "github_pr": 13,
         "title": "Reproduce the Section 4 deadlock and lost update",
         "commits": [
             ("Add shared test helpers for the service", [T + "server/TestSupport.java"]),
@@ -92,7 +102,7 @@ PULL_REQUESTS = [
         ],
     },
     {
-        "wp": "WP5", "n": 1, "branch": "feature/testing", "reviewer": "WP3",
+        "wp": "WP5", "n": 1, "branch": "feature/testing", "reviewer": "WP3", "issue": 7, "github_pr": None,
         "title": "Tests, experiments, benchmark, README and evidence",
         "commits": [
             ("Add service tests for normal use, invalid mark and unknown student",

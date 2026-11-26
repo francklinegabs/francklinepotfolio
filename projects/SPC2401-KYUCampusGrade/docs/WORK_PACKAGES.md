@@ -3,15 +3,20 @@
 Every file in the repository belongs to exactly one pull request. The pull requests are merged in the
 order below, and `main` compiles after every merge (checked by compiling each stage).
 
-| Merge # | Owner | Branch | Pull request | Reviewer |
-|---|---|---|---|---|
-| 1 | Franckline Were (WP1) | `feature/rmi-core` | Repository skeleton and RMI remote interfaces | Kelvin Lemaitoi |
-| 2 | Ashley Odiwuor (WP4) | `feature/fault-handling` | Configuration, failure log, retry and at-most-once support | Eunice Gikaru |
-| 3 | Eunice Gikaru (WP3) | `feature/concurrency` | Thread-safe marks store and worker pool | Ashley Odiwuor |
-| 4 | Kelvin Lemaitoi (WP2) | `feature/notification` | Leased subscriptions, notifier pool and student client | Franckline Were |
-| 5 | Franckline Were (WP1) | `feature/grade-service` | GradeService implementation and server start-up | Jeff Njuguna |
-| 6 | Eunice Gikaru (WP3) | `feature/section4-tests` | Reproduce the Section 4 deadlock and lost update | Ashley Odiwuor |
-| 7 | Jeff Njuguna (WP5) | `feature/testing` | Tests, experiments, benchmark, README and evidence | Eunice Gikaru |
+Repository: https://github.com/francklinegabs/SPC2401-Group12
+
+| Merge # | Owner (GitHub) | Branch | Pull request | Issue | GitHub PR | Reviewer |
+|---|---|---|---|---|---|---|
+| 1 | Franckline Were (`francklinegabs`) | `feature/rmi-core` | Repository skeleton and RMI remote interfaces | #1 | #8 | Ashley Odiwuor |
+| 2 | Ashley Odiwuor (`odiwuor-ashley`) | `feature/fault-handling` | Configuration, failure log, retry and at-most-once support | #2 | #9 | Eunice Gikaru |
+| 3 | Eunice Gikaru (`gikarueunice`) | `feature/concurrency` | Thread-safe marks store and worker pool | #3 | #10 | Ashley Odiwuor |
+| 4 | Kelvin Lemaitoi (`Kyrie-ML`) | `feature/notification` | Leased subscriptions, notifier pool and student client | #4 | #11 | Franckline Were |
+| 5 | Franckline Were (`francklinegabs`) | `feature/grade-service` | GradeService implementation and server start-up | #5 | #12 | Jeff Njuguna |
+| 6 | Eunice Gikaru (`gikarueunice`) | `feature/section4-tests` | Reproduce the Section 4 deadlock and lost update | #6 | #13 | Ashley Odiwuor |
+| 7 | Jeff Njuguna (`JustJeff-hub`) | `feature/testing` | Tests, experiments, benchmark, README and evidence | #7 | opened last | Eunice Gikaru |
+
+GitHub numbers issues and pull requests together, so issues are #1–#7 and the pull requests start at #8.
+Each member also opened one pull request of oral-check study notes (#14–#18), reviewed the same way.
 
 Then the team lead tags `v1.0`.
 
@@ -20,7 +25,7 @@ Then the team lead tags `v1.0`.
 **Report:** Section 1 (Remote invocation) and the class diagram.
 
 ### Pull request #1 – `feature/rmi-core` – Repository skeleton and RMI remote interfaces
-Reviewer: Kelvin Lemaitoi.
+Reviewer: Ashley Odiwuor.
 
 | # | Commit message | Files |
 |---|---|---|
