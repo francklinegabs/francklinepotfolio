@@ -106,3 +106,4 @@ One question per card, answered from this project's own design and measured resu
 79. [How many automated tests are there and how are they split?](79-how-many-automated-tests-are-there-and-how-are-the.md)
 80. [What does the four-process integration test prove?](80-what-does-the-four-process-integration-test-prove.md)
 81. [What did 22 lecturer processes submitting at once show?](81-what-did-22-lecturer-processes-submitting-at-once.md)
+82. [What did experiment A1 (server killed before storing) show?](82-what-did-experiment-a1-server-killed-before-storin.md)
