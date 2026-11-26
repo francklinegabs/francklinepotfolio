@@ -23,3 +23,4 @@ One question per card, answered from this project's own design and measured resu
 14. [Step 2: what does the client stub do?](14-step-2-what-does-the-client-stub-do.md)
 15. [Step 3: what does the communication module do?](15-step-3-what-does-the-communication-module-do.md)
 16. [Step 4: what does the dispatcher (skeleton) do?](16-step-4-what-does-the-dispatcher-skeleton-do.md)
+17. [Steps 5 and 6: what happens in the implementation and on the reply path?](17-steps-5-and-6-what-happens-in-the-implementation-a.md)
