@@ -104,3 +104,4 @@ One question per card, answered from this project's own design and measured resu
 ## Testing and evidence
 
 79. [How many automated tests are there and how are they split?](79-how-many-automated-tests-are-there-and-how-are-the.md)
+80. [What does the four-process integration test prove?](80-what-does-the-four-process-integration-test-prove.md)
