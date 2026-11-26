@@ -65,3 +65,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 47. [How does Little's law check our latency numbers?](47-how-does-little-s-law-check-our-latency-numbers.md)
 48. [4.4: total time for three calls one after another vs concurrently?](48-4-4-total-time-for-three-calls-one-after-another-v.md)
 49. [4.4: which costs does LRPC remove on one machine?](49-4-4-which-costs-does-lrpc-remove-on-one-machine.md)
+50. [Why did concurrency help only 1.7x with no injected delay?](50-why-did-concurrency-help-only-1-7x-with-no-injecte.md)
