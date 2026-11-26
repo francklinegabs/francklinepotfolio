@@ -68,3 +68,4 @@ The oral check can ask any member about any part, so these cards walk through my
 
 45. [In what order were the 7 pull requests merged, and why?](45-in-what-order-were-the-7-pull-requests-merged-and.md)
 46. [How did we stop anyone pushing straight to main?](46-how-did-we-stop-anyone-pushing-straight-to-main.md)
+47. [Why must each member commit with their own GitHub e-mail?](47-why-must-each-member-commit-with-their-own-github.md)
