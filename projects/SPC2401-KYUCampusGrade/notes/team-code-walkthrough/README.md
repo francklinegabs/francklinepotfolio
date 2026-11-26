@@ -63,3 +63,7 @@ The oral check can ask any member about any part, so these cards walk through my
 42. [Which programs produce the 7.3 and 7.4 evidence?](42-which-programs-produce-the-7-3-and-7-4-evidence.md)
 43. [How did we fix the one flaky test run?](43-how-did-we-fix-the-one-flaky-test-run.md)
 44. [How do you run all the tests?](44-how-do-you-run-all-the-tests.md)
+
+## Running the repository as team lead
+
+45. [In what order were the 7 pull requests merged, and why?](45-in-what-order-were-the-7-pull-requests-merged-and.md)
