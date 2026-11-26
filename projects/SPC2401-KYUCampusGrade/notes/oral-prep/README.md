@@ -57,3 +57,7 @@ One question per card, answered from this project's own design and measured resu
 42. [Thread vs process: what about context switches and crashes?](42-thread-vs-process-what-about-context-switches-and.md)
 43. [Why did we run the notifier as threads inside the server?](43-why-did-we-run-the-notifier-as-threads-inside-the.md)
 44. [Where does RMI's own threading fit with our worker pool?](44-where-does-rmi-s-own-threading-fit-with-our-worker.md)
+
+## Section 4 – Synchronisation and invocation cost
+
+45. [What is wrong with lines (1)-(3) of the given submitMark?](45-what-is-wrong-with-lines-1-3-of-the-given-submitma.md)
