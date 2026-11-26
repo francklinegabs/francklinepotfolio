@@ -48,3 +48,4 @@ One question per card, answered from this project's own design and measured resu
 ## Section 3 – OS types, processes, threads
 
 35. [Hard-coded host name broke every client. Which transparency, and what fix?](35-hard-coded-host-name-broke-every-client-which-tran.md)
+36. [Two lecturers' updates overwrote each other. Which transparency?](36-two-lecturers-updates-overwrote-each-other-which-t.md)
