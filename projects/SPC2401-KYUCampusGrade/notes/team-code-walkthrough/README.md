@@ -37,3 +37,4 @@ The oral check can ask any member about any part, so these cards walk through my
 22. [How does the Notifier send callbacks?](22-how-does-the-notifier-send-callbacks.md)
 23. [What happens when one callback fails?](23-what-happens-when-one-callback-fails.md)
 24. [What is a PublishReport?](24-what-is-a-publishreport.md)
+25. [Why does publishMarks return before the callbacks finish?](25-why-does-publishmarks-return-before-the-callbacks.md)
