@@ -85,3 +85,7 @@ One question per card, answered from this project's own design and measured resu
 64. [How would Amoeba tell 2,000 students that marks are published?](64-how-would-amoeba-tell-2-000-students-that-marks-ar.md)
 65. [Two strengths of Amoeba for KYUCampusGrade?](65-two-strengths-of-amoeba-for-kyucampusgrade.md)
 66. [Two weaknesses, and the lesson modern middleware kept?](66-two-weaknesses-and-the-lesson-modern-middleware-ke.md)
+
+## My code (WP1)
+
+67. [What does Validation check, and why before any work?](67-what-does-validation-check-and-why-before-any-work.md)
