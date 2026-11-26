@@ -33,3 +33,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 18. [What back-off do we use?](18-what-back-off-do-we-use.md)
 19. [How many attempts does a default call make?](19-how-many-attempts-does-a-default-call-make.md)
 20. [What does classify() report?](20-what-does-classify-report.md)
+21. [What is GaveUpException?](21-what-is-gaveupexception.md)
