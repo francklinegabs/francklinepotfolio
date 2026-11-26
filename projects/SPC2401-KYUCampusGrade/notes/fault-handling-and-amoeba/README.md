@@ -49,3 +49,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 28. [What is the journal's format?](28-what-is-the-journal-s-format.md)
 29. [What does write-ahead mean here?](29-what-does-write-ahead-mean-here.md)
 30. [Does flush() survive every kind of crash?](30-does-flush-survive-every-kind-of-crash.md)
+31. [How does replay handle a half-written last line?](31-how-does-replay-handle-a-half-written-last-line.md)
