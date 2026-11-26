@@ -47,3 +47,4 @@ The oral check can ask any member about any part, so these cards walk through my
 29. [How does the student client become reachable for callbacks?](29-how-does-the-student-client-become-reachable-for-c.md)
 30. [When does the student renew its lease?](30-when-does-the-student-renew-its-lease.md)
 31. [What does markPublished() do on the student side?](31-what-does-markpublished-do-on-the-student-side.md)
+32. [Why call getMark inside the callback on purpose?](32-why-call-getmark-inside-the-callback-on-purpose.md)
