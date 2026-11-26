@@ -111,3 +111,4 @@ One question per card, answered from this project's own design and measured resu
 84. [What did experiment B (student offline) show?](84-what-did-experiment-b-student-offline-show.md)
 85. [What did experiment C (network delay) show?](85-what-did-experiment-c-network-delay-show.md)
 86. [Why was 1 worker 88 requests/s and not 100?](86-why-was-1-worker-88-requests-s-and-not-100.md)
+87. [How much slower is a remote call than a local one?](87-how-much-slower-is-a-remote-call-than-a-local-one.md)
