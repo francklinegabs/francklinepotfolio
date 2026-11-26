@@ -76,3 +76,4 @@ One question per card, answered from this project's own design and measured resu
 ## Section 5 – Amoeba
 
 57. [Map the lecturer's PC and the server host onto Amoeba.](57-map-the-lecturer-s-pc-and-the-server-host-onto-amo.md)
+58. [Map the registry and the spare CPUs onto Amoeba.](58-map-the-registry-and-the-spare-cpus-onto-amoeba.md)
