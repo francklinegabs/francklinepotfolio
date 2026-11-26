@@ -21,3 +21,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 12. [How are worker threads named and why?](12-how-are-worker-threads-named-and-why.md)
 13. [Why is the CPU simulated with a busy loop and not sleep?](13-why-is-the-cpu-simulated-with-a-busy-loop-and-not.md)
 14. [Why is the simulated-core semaphore fair?](14-why-is-the-simulated-core-semaphore-fair.md)
+15. [What is the pool's drawback, and how did we soften it?](15-what-is-the-pool-s-drawback-and-how-did-we-soften.md)
