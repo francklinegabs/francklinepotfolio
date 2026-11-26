@@ -96,3 +96,4 @@ One question per card, answered from this project's own design and measured resu
 72. [Walk through applySubmit with a request ID.](72-walk-through-applysubmit-with-a-request-id.md)
 73. [Why journal before updating memory (write-ahead)?](73-why-journal-before-updating-memory-write-ahead.md)
 74. [What does recover() do at start-up?](74-what-does-recover-do-at-start-up.md)
+75. [What does housekeep() do and how often?](75-what-does-housekeep-do-and-how-often.md)
