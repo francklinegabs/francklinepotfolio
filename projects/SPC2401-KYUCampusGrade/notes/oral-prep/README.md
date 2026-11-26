@@ -93,3 +93,4 @@ One question per card, answered from this project's own design and measured resu
 69. [Why does MarkRecord have withPublished?](69-why-does-markrecord-have-withpublished.md)
 70. [Why does GradeServiceImpl have no synchronized methods?](70-why-does-gradeserviceimpl-have-no-synchronized-met.md)
 71. [What is applyLock for, then?](71-what-is-applylock-for-then.md)
+72. [Walk through applySubmit with a request ID.](72-walk-through-applysubmit-with-a-request-id.md)
