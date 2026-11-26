@@ -45,3 +45,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 30. [Which transparency is violated when clients switch to a backup by hand?](30-which-transparency-is-violated-when-clients-switch.md)
 31. [Which transparency is violated by different methods for cached and server marks?](31-which-transparency-is-violated-by-different-method.md)
 32. [Thread vs process: address space?](32-thread-vs-process-address-space.md)
+33. [Thread vs process: what did creation really cost?](33-thread-vs-process-what-did-creation-really-cost.md)
