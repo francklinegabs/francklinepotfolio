@@ -14,3 +14,4 @@ One question per card, answered from this project's own design and measured resu
 8. [What is java.rmi.server.hostname for?](08-what-is-java-rmi-server-hostname-for.md)
 9. [What is a custom RMIClientSocketFactory and why do we use one?](09-what-is-a-custom-rmiclientsocketfactory-and-why-do.md)
 10. [What is distributed garbage collection in RMI?](10-what-is-distributed-garbage-collection-in-rmi.md)
+11. [Which JVM thread runs a remote method?](11-which-jvm-thread-runs-a-remote-method.md)
