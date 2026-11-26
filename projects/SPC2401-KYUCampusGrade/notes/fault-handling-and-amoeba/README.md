@@ -43,3 +43,7 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 25. [What happens if the original fails before storing?](25-what-happens-if-the-original-fails-before-storing.md)
 26. [How long are request IDs remembered?](26-how-long-are-request-ids-remembered.md)
 27. [Why only purge completed entries?](27-why-only-purge-completed-entries.md)
+
+## Journal – surviving a crash
+
+28. [What is the journal's format?](28-what-is-the-journal-s-format.md)
