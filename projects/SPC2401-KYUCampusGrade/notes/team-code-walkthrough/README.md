@@ -29,3 +29,4 @@ The oral check can ask any member about any part, so these cards walk through my
 17. [What does renew() do with an expired subscription?](17-what-does-renew-do-with-an-expired-subscription.md)
 18. [Why remove(subscription) and not remove(studentId)?](18-why-remove-subscription-and-not-remove-studentid.md)
 19. [What does activeFor() return?](19-what-does-activefor-return.md)
+20. [Who calls reapExpired()?](20-who-calls-reapexpired.md)
