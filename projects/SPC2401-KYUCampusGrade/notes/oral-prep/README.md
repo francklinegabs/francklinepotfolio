@@ -10,3 +10,4 @@ One question per card, answered from this project's own design and measured resu
 4. [What is the stub in Java RMI today?](04-what-is-the-stub-in-java-rmi-today.md)
 5. [What does the registry store?](05-what-does-the-registry-store.md)
 6. [Why rebind instead of bind?](06-why-rebind-instead-of-bind.md)
+7. [What is the difference between rmiregistry and createRegistry?](07-what-is-the-difference-between-rmiregistry-and-cre.md)
