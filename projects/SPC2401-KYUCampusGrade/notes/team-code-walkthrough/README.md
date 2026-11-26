@@ -59,3 +59,4 @@ The oral check can ask any member about any part, so these cards walk through my
 38. [Why a manual clock?](38-why-a-manual-clock.md)
 39. [How does Proc start separate JVMs?](39-how-does-proc-start-separate-jvms.md)
 40. [Why derive the class path from the code source?](40-why-derive-the-class-path-from-the-code-source.md)
+41. [What do the RMI tests I01-I05 cover?](41-what-do-the-rmi-tests-i01-i05-cover.md)
