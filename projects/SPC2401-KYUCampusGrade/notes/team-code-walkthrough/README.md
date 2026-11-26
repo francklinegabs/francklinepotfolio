@@ -21,3 +21,7 @@ The oral check can ask any member about any part, so these cards walk through my
 12. [How does the simulated CPU cost work?](12-how-does-the-simulated-cpu-cost-work.md)
 13. [How does the simulated disk cost work?](13-how-does-the-simulated-disk-cost-work.md)
 14. [What did the pool measurements show?](14-what-did-the-pool-measurements-show.md)
+
+## SubscriptionManager (notification package)
+
+15. [How is a lease granted?](15-how-is-a-lease-granted.md)
