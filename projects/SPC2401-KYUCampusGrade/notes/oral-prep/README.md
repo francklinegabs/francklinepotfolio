@@ -112,3 +112,4 @@ One question per card, answered from this project's own design and measured resu
 85. [What did experiment C (network delay) show?](85-what-did-experiment-c-network-delay-show.md)
 86. [Why was 1 worker 88 requests/s and not 100?](86-why-was-1-worker-88-requests-s-and-not-100.md)
 87. [How much slower is a remote call than a local one?](87-how-much-slower-is-a-remote-call-than-a-local-one.md)
+88. [What are the two main limitations of our testing?](88-what-are-the-two-main-limitations-of-our-testing.md)
