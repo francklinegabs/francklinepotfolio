@@ -31,3 +31,4 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 16. [Which errors are never retried, and why?](16-which-errors-are-never-retried-and-why.md)
 17. [Why drop the cached stub after a failure?](17-why-drop-the-cached-stub-after-a-failure.md)
 18. [What back-off do we use?](18-what-back-off-do-we-use.md)
+19. [How many attempts does a default call make?](19-how-many-attempts-does-a-default-call-make.md)
