@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 900" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <defs>
+    <marker id="tri" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#fff" stroke="#333"/>
+    </marker>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10" fill="none" stroke="#333"/>
+    </marker>
+    <marker id="dia" viewBox="0 0 14 10" refX="1" refY="5" markerWidth="14" markerHeight="10" orient="auto">
+      <path d="M1,5 L7,1 L13,5 L7,9 z" fill="#333"/>
+    </marker>
+    <style>
+      .box{fill:#fff;stroke:#1f4e79;stroke-width:1.4}
+      .hdr{fill:#1f4e79}
+      .ihdr{fill:#2e75b6}
+      .shdr{fill:#7f6000}
+      .t{fill:#fff;font-weight:600;font-size:13px}
+      .st{fill:#fff;font-size:10px;font-style:italic}
+      .m{fill:#222;font-family:Consolas, monospace;font-size:11px}
+      .pkg{fill:#f4f8fc;stroke:#9db7d5;stroke-dasharray:5 4}
+      .pk{fill:#1f4e79;font-weight:700;font-size:13px}
+      .ln{stroke:#333;stroke-width:1.2;fill:none}
+      .dash{stroke:#333;stroke-width:1.2;fill:none;stroke-dasharray:6 4}
+      .lab{fill:#444;font-size:10.5px}
+    </style>
+  </defs>
+  <rect width="1240" height="900" fill="#fff"/>
+  <text x="20" y="28" font-size="18" font-weight="700" fill="#1f4e79">KYUCampusGrade – class diagram (package ke.ac.kyu.campusgrade)</text>
+
+  <!-- api package -->
+  <rect class="pkg" x="15" y="45" width="1210" height="285" rx="6"/>
+  <text class="pk" x="28" y="66">api (shared by server and clients)</text>
+
+  <!-- GradeService -->
+  <rect class="box" x="30" y="78" width="420" height="232"/>
+  <rect class="ihdr" x="30" y="78" width="420" height="34"/>
+  <text class="st" x="240" y="92" text-anchor="middle">«interface» extends java.rmi.Remote</text>
+  <text class="t" x="240" y="107" text-anchor="middle">GradeService</text>
+  <text class="m" x="38" y="130">+ SERVICE_NAME = "GradeService"</text>
+  <text class="m" x="38" y="148">+ submitMark(sid, unit, mark: int)</text>
+  <text class="m" x="50" y="161">  throws RemoteException, InvalidMarkException</text>
+  <text class="m" x="38" y="177">+ getMark(sid, unit): int  throws RemoteException,</text>
+  <text class="m" x="50" y="190">  UnknownStudentException, MarkNotPublishedException</text>
+  <text class="m" x="38" y="206">+ publishMarks(unit) throws RemoteException, UnknownUnitException</text>
+  <text class="m" x="38" y="222">+ subscribe(sid, l: StudentListener) throws RemoteException, …</text>
+  <text class="m" x="38" y="238">+ unsubscribe(sid) throws RemoteException</text>
+  <text class="m" x="38" y="254">+ submitMark(requestId, sid, unit, mark)  // at-most-once</text>
+  <text class="m" x="38" y="270">+ subscribe(sid, l, leaseMs): Lease</text>
+  <text class="m" x="38" y="286">+ renewLease(sid): Lease throws NotSubscribedException</text>
+  <text class="m" x="38" y="302">+ listMarks(unit): List&lt;MarkRecord&gt;</text>
+
+  <!-- StudentListener -->
+  <rect class="box" x="470" y="78" width="250" height="70"/>
+  <rect class="ihdr" x="470" y="78" width="250" height="34"/>
+  <text class="st" x="595" y="92" text-anchor="middle">«interface» extends java.rmi.Remote</text>
+  <text class="t" x="595" y="107" text-anchor="middle">StudentListener</text>
+  <text class="m" x="478" y="132">+ markPublished(unit)</text>
+  <text class="m" x="490" y="144">  throws RemoteException</text>
+
+  <!-- Lease -->
+  <rect class="box" x="470" y="165" width="250" height="78"/>
+  <rect class="shdr" x="470" y="165" width="250" height="34"/>
+  <text class="st" x="595" y="179" text-anchor="middle">«Serializable» – passed by value</text>
+  <text class="t" x="595" y="194" text-anchor="middle">Lease</text>
+  <text class="m" x="478" y="216">- studentId: String</text>
+  <text class="m" x="478" y="230">- durationMillis, expiresAtMillis: long</text>
+
+  <!-- MarkRecord -->
+  <rect class="box" x="470" y="250" width="250" height="70"/>
+  <rect class="shdr" x="470" y="250" width="250" height="34"/>
+  <text class="st" x="595" y="264" text-anchor="middle">«Serializable» – passed by value</text>
+  <text class="t" x="595" y="279" text-anchor="middle">MarkRecord</text>
+  <text class="m" x="478" y="300">- studentId, unitCode: String</text>
+  <text class="m" x="478" y="314">- mark: int; updatedAt; published</text>
+
+  <!-- Exceptions -->
+  <rect class="box" x="740" y="78" width="470" height="242"/>
+  <rect class="shdr" x="740" y="78" width="470" height="34"/>
+  <text class="st" x="975" y="92" text-anchor="middle">checked, Serializable – thrown back to the caller</text>
+  <text class="t" x="975" y="107" text-anchor="middle">GradeException extends Exception</text>
+  <rect x="755" y="126" width="210" height="26" fill="#fff8e5" stroke="#7f6000"/>
+  <text class="m" x="860" y="143" text-anchor="middle">InvalidMarkException</text>
+  <rect x="985" y="126" width="210" height="26" fill="#fff8e5" stroke="#7f6000"/>
+  <text class="m" x="1090" y="143" text-anchor="middle">UnknownStudentException</text>
+  <rect x="755" y="166" width="210" height="26" fill="#fff8e5" stroke="#7f6000"/>
+  <text class="m" x="860" y="183" text-anchor="middle">MarkNotPublishedException</text>
+  <rect x="985" y="166" width="210" height="26" fill="#fff8e5" stroke="#7f6000"/>
+  <text class="m" x="1090" y="183" text-anchor="middle">UnknownUnitException</text>
+  <rect x="870" y="206" width="210" height="26" fill="#fff8e5" stroke="#7f6000"/>
+  <text class="m" x="975" y="223" text-anchor="middle">NotSubscribedException</text>
+  <text class="lab" x="755" y="256">java.rmi.RemoteException (network failure) is declared on every</text>
+  <text class="lab" x="755" y="271">remote method; GradeException means "the server answered no"</text>
+  <text class="lab" x="755" y="286">and is never retried. All five subclasses extend GradeException.</text>
+
+  <!-- server package -->
+  <rect class="pkg" x="15" y="345" width="760" height="540" rx="6"/>
+  <text class="pk" x="28" y="366">server</text>
+
+  <rect class="box" x="30" y="378" width="330" height="190"/>
+  <rect class="hdr" x="30" y="378" width="330" height="26"/>
+  <text class="t" x="195" y="396" text-anchor="middle">GradeServiceImpl</text>
+  <text class="m" x="38" y="420">implements GradeService, AutoCloseable</text>
+  <text class="m" x="38" y="438">- applyLock: Object  (never held in a callback)</text>
+  <text class="m" x="38" y="456">+ submitMark / getMark / publishMarks /</text>
+  <text class="m" x="38" y="470">  subscribe / unsubscribe / renewLease / listMarks</text>
+  <text class="m" x="38" y="488">- applySubmit(reqId, sid, unit, mark)</text>
+  <text class="m" x="38" y="504">- recover()   // replay journal at start-up</text>
+  <text class="m" x="38" y="520">~ housekeep() // reap leases, purge request IDs</text>
+  <text class="m" x="38" y="538">+ lastPublication(): CompletableFuture</text>
+  <text class="m" x="38" y="556">no synchronized methods</text>
+
+  <rect class="box" x="30" y="600" width="330" height="80"/>
+  <rect class="hdr" x="30" y="600" width="330" height="26"/>
+  <text class="t" x="195" y="618" text-anchor="middle">GradeServer</text>
+  <text class="m" x="38" y="642">+ start(impl, host, port, createRegistry, …)</text>
+  <text class="m" x="38" y="658">  exportObject + registry.rebind(SERVICE_NAME)</text>
+  <text class="m" x="38" y="674">+ main(args)</text>
+
+  <rect class="box" x="30" y="700" width="330" height="70"/>
+  <rect class="hdr" x="30" y="700" width="330" height="26"/>
+  <text class="t" x="195" y="718" text-anchor="middle">ServerSettings · Validation</text>
+  <text class="m" x="38" y="742">workers, notifierThreads, lease, journal …</text>
+  <text class="m" x="38" y="758">mark 0..100, ID pattern, request ID pattern</text>
+
+  <rect class="box" x="420" y="378" width="340" height="88"/>
+  <rect class="hdr" x="420" y="378" width="340" height="26"/>
+  <text class="t" x="590" y="396" text-anchor="middle">MarkStore</text>
+  <text class="m" x="428" y="420">- marks: Map&lt;Key(sid,unit), MarkRecord&gt;</text>
+  <text class="m" x="428" y="436">- lock: ReentrantReadWriteLock</text>
+  <text class="m" x="428" y="452">+ put / get / publish / studentsIn / list</text>
+
+  <rect class="box" x="420" y="478" width="340" height="88"/>
+  <rect class="hdr" x="420" y="478" width="340" height="26"/>
+  <text class="t" x="590" y="496" text-anchor="middle">SubscriptionManager</text>
+  <text class="m" x="428" y="520">- subs: ConcurrentHashMap&lt;sid, Subscription&gt;</text>
+  <text class="m" x="428" y="536">+ subscribe / renew / unsubscribe / remove</text>
+  <text class="m" x="428" y="552">+ activeFor(ids) / reapExpired()</text>
+
+  <rect class="box" x="420" y="578" width="340" height="72"/>
+  <rect class="hdr" x="420" y="578" width="340" height="26"/>
+  <text class="t" x="590" y="596" text-anchor="middle">Notifier</text>
+  <text class="m" x="428" y="620">- pool: fixed thread pool (notifier.threads)</text>
+  <text class="m" x="428" y="636">+ publish(unit, targets): Future&lt;PublishReport&gt;</text>
+
+  <rect class="box" x="420" y="662" width="340" height="56"/>
+  <rect class="hdr" x="420" y="662" width="340" height="26"/>
+  <text class="t" x="590" y="680" text-anchor="middle">WorkerPool</text>
+  <text class="m" x="428" y="704">+ execute(Task): fixed pool (server.workers)</text>
+
+  <rect class="box" x="420" y="730" width="340" height="56"/>
+  <rect class="hdr" x="420" y="730" width="340" height="26"/>
+  <text class="t" x="590" y="748" text-anchor="middle">RequestDeduplicator</text>
+  <text class="m" x="428" y="772">+ begin(reqId): Ticket / complete / abort</text>
+
+  <rect class="box" x="420" y="798" width="340" height="72"/>
+  <rect class="hdr" x="420" y="798" width="340" height="26"/>
+  <text class="t" x="590" y="816" text-anchor="middle">Journal</text>
+  <text class="m" x="428" y="840">+ appendMark / appendPublish (write-ahead)</text>
+  <text class="m" x="428" y="856">+ replay(Replayer)</text>
+
+  <!-- composition lines from impl to components -->
+  <path class="ln" d="M360,420 L420,420" marker-start="url(#dia)"/>
+  <path class="ln" d="M360,440 L390,440 L390,520 L420,520" marker-start="url(#dia)"/>
+  <path class="ln" d="M360,460 L384,460 L384,612 L420,612" marker-start="url(#dia)"/>
+  <path class="ln" d="M360,480 L378,480 L378,690 L420,690" marker-start="url(#dia)"/>
+  <path class="ln" d="M360,500 L372,500 L372,758 L420,758" marker-start="url(#dia)"/>
+  <path class="ln" d="M360,520 L366,520 L366,834 L420,834" marker-start="url(#dia)"/>
+  <path class="dash" d="M195,600 L195,568" marker-end="url(#arr)"/>
+  <text class="lab" x="200" y="590">exports and binds</text>
+  <path class="dash" d="M195,378 L195,310" marker-end="url(#tri)"/>
+  <text class="lab" x="200" y="350">implements</text>
+
+  <!-- client and common packages -->
+  <rect class="pkg" x="790" y="345" width="435" height="355" rx="6"/>
+  <text class="pk" x="803" y="366">client</text>
+
+  <rect class="box" x="805" y="378" width="405" height="96"/>
+  <rect class="hdr" x="805" y="378" width="405" height="26"/>
+  <text class="t" x="1007" y="396" text-anchor="middle">RetryingCaller</text>
+  <text class="m" x="813" y="420">+ lookup(): GradeService   // registry by name</text>
+  <text class="m" x="813" y="436">+ call(what, RemoteCall&lt;T&gt;): T</text>
+  <text class="m" x="813" y="452">  timeout, retry with back-off, re-lookup,</text>
+  <text class="m" x="813" y="466">  timestamped FAILURE log, never retries GradeException</text>
+
+  <rect class="box" x="805" y="490" width="195" height="80"/>
+  <rect class="hdr" x="805" y="490" width="195" height="26"/>
+  <text class="t" x="902" y="508" text-anchor="middle">LecturerClient</text>
+  <text class="m" x="813" y="532">+ submit (new UUID</text>
+  <text class="m" x="813" y="546">  reused on retry)</text>
+  <text class="m" x="813" y="562">+ publish / get / list</text>
+
+  <rect class="box" x="1015" y="490" width="195" height="96"/>
+  <rect class="hdr" x="1015" y="490" width="195" height="26"/>
+  <text class="t" x="1112" y="508" text-anchor="middle">StudentClient</text>
+  <text class="m" x="1023" y="532">implements</text>
+  <text class="m" x="1023" y="546">  StudentListener</text>
+  <text class="m" x="1023" y="562">+ start(): export+subscribe</text>
+  <text class="m" x="1023" y="578">- renew() every lease/2</text>
+
+  <path class="ln" d="M902,490 L902,474" marker-end="url(#arr)"/>
+  <path class="ln" d="M1112,490 L1112,474" marker-end="url(#arr)"/>
+  <text class="lab" x="815" y="610">LecturerClient and StudentClient send every remote</text>
+  <text class="lab" x="815" y="625">call through RetryingCaller.</text>
+  <path class="dash" d="M1112,586 L1112,640 L1225,640 L1225,40 L720,40 L720,112" marker-end="url(#tri)"/>
+  <text class="lab" x="1060" y="656">implements StudentListener</text>
+  <path class="dash" d="M805,425 L780,425 L780,330 L450,330 L450,300" marker-end="url(#arr)"/>
+  <text class="lab" x="560" y="343">uses stub of GradeService</text>
+
+  <rect class="pkg" x="790" y="715" width="435" height="170" rx="6"/>
+  <text class="pk" x="803" y="736">common</text>
+  <rect class="box" x="805" y="748" width="130" height="122"/>
+  <rect class="hdr" x="805" y="748" width="130" height="26"/>
+  <text class="t" x="870" y="766" text-anchor="middle">Config</text>
+  <text class="m" x="812" y="790">-Dkyu.* &gt;</text>
+  <text class="m" x="812" y="806">KYU_* env &gt;</text>
+  <text class="m" x="812" y="822">kyu.properties</text>
+  <text class="m" x="812" y="838">&gt; default</text>
+  <rect class="box" x="945" y="748" width="120" height="122"/>
+  <rect class="hdr" x="945" y="748" width="120" height="26"/>
+  <text class="t" x="1005" y="766" text-anchor="middle">EventLog</text>
+  <text class="m" x="952" y="790">info / warn /</text>
+  <text class="m" x="952" y="806">failure with</text>
+  <text class="m" x="952" y="822">ISO timestamp</text>
+  <rect class="box" x="1075" y="748" width="140" height="122"/>
+  <rect class="hdr" x="1075" y="748" width="140" height="26"/>
+  <text class="t" x="1145" y="766" text-anchor="middle" font-size="11">KyuClientSocket…</text>
+  <text class="m" x="1082" y="790">RMIClient-</text>
+  <text class="m" x="1082" y="806">SocketFactory,</text>
+  <text class="m" x="1082" y="822">Serializable:</text>
+  <text class="m" x="1082" y="838">timeouts and</text>
+  <text class="m" x="1082" y="854">net.delay.ms</text>
+</svg>
