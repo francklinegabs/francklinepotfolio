@@ -52,3 +52,7 @@ One question per card, answered from my own package (WP4) and report Section 5, 
 31. [How does replay handle a half-written last line?](31-how-does-replay-handle-a-half-written-last-line.md)
 32. [Why are journal appends synchronized?](32-why-are-journal-appends-synchronized.md)
 33. [How is journaling switched off?](33-how-is-journaling-switched-off.md)
+
+## LecturerClient
+
+34. [What commands does the lecturer client accept?](34-what-commands-does-the-lecturer-client-accept.md)
