@@ -50,3 +50,7 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 35. [What is the crash risk of a notifier thread, and how do we limit it?](35-what-is-the-crash-risk-of-a-notifier-thread-and-ho.md)
 36. [Why did we still choose a thread for the notifier?](36-why-did-we-still-choose-a-thread-for-the-notifier.md)
 37. [How does Java map threads onto the OS?](37-how-does-java-map-threads-onto-the-os.md)
+
+## Section 4 – synchronisation and invocation cost
+
+38. [Draw the lost-update interleaving in words.](38-draw-the-lost-update-interleaving-in-words.md)
