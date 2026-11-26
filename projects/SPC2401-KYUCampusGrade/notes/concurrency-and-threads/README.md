@@ -57,3 +57,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 39. [Why does making only getMark synchronized not protect the map?](39-why-does-making-only-getmark-synchronized-not-prot.md)
 40. [State the four conditions for deadlock using 4.2.](40-state-the-four-conditions-for-deadlock-using-4-2.md)
 41. [Why does RMI make this deadlock permanent?](41-why-does-rmi-make-this-deadlock-permanent.md)
+42. [Give two other valid fixes for 4.2 besides ours.](42-give-two-other-valid-fixes-for-4-2-besides-ours.md)
