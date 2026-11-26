@@ -26,3 +26,17 @@ at Kirinyaga University. I was team lead and owned work package 1, the RMI core.
 
 This folder holds only my work package. The other packages (marks store, notifier, fault handling, tests)
 were written by my teammates, so this code does not compile on its own.
+
+## Fault handling – Ashley Odiwuor (work package 4)
+
+Added by Ashley Odiwuor through pull request `feature/fault-handling`.
+
+| Path | What it is |
+|---|---|
+| `src/ke/ac/kyu/campusgrade/common/Config.java`, `config/kyu.properties` | Configuration lookup: `-Dkyu.*`, then `KYU_*`, then the properties file. No host or port is hard-coded. |
+| `src/ke/ac/kyu/campusgrade/common/EventLog.java` | Timestamped log; FAILURE lines form the failure log |
+| `src/ke/ac/kyu/campusgrade/common/KyuClientSocketFactory.java` | RMI socket factory with connect/read timeouts and an optional simulated network delay |
+| `src/ke/ac/kyu/campusgrade/client/RetryingCaller.java` | Client timeout, retry with exponential back-off, re-lookup; never retries application errors |
+| `src/ke/ac/kyu/campusgrade/server/RequestDeduplicator.java` | Request-ID table that makes a retried `submitMark` apply at most once |
+| `src/ke/ac/kyu/campusgrade/server/Journal.java` | Write-ahead journal, so marks and request IDs survive a server crash |
+| `src/ke/ac/kyu/campusgrade/client/LecturerClient.java` | Lecturer client: one request ID per submit, reused on every retry |
