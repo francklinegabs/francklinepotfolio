@@ -82,3 +82,4 @@ One question per card, answered from this project's own design and measured resu
 61. [Why can a student not turn READ into READ+WRITE?](61-why-can-a-student-not-turn-read-into-read-write.md)
 62. [What do getreq, putrep and trans do?](62-what-do-getreq-putrep-and-trans-do.md)
 63. [How would 4 worker threads look in an Amoeba GradeService?](63-how-would-4-worker-threads-look-in-an-amoeba-grade.md)
+64. [How would Amoeba tell 2,000 students that marks are published?](64-how-would-amoeba-tell-2-000-students-that-marks-ar.md)
