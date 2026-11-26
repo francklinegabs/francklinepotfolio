@@ -37,3 +37,4 @@ One question per card, answered from this project's own design and measured resu
 25. [What are our three notification event types?](25-what-are-our-three-notification-event-types.md)
 26. [Why push the event but pull the mark?](26-why-push-the-event-but-pull-the-mark.md)
 27. [What lease did we choose and how is it renewed?](27-what-lease-did-we-choose-and-how-is-it-renewed.md)
+28. [What happens when a student's laptop sleeps for 2 days?](28-what-happens-when-a-student-s-laptop-sleeps-for-2.md)
