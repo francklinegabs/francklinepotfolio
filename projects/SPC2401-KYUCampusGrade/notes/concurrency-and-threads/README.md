@@ -11,3 +11,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 5. [Why do I unlock in a finally block every time?](05-why-do-i-unlock-in-a-finally-block-every-time.md)
 6. [What does publish() return for an unknown unit, and what does the service do with it?](06-what-does-publish-return-for-an-unknown-unit-and-w.md)
 7. [Why keep a separate submitted counter when the map has a size?](07-why-keep-a-separate-submitted-counter-when-the-map.md)
+8. [How is a correction after publication handled?](08-how-is-a-correction-after-publication-handled.md)
