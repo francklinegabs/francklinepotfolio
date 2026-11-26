@@ -16,3 +16,7 @@ One question per card, answered from this project's own design and measured resu
 10. [What is distributed garbage collection in RMI?](10-what-is-distributed-garbage-collection-in-rmi.md)
 11. [Which JVM thread runs a remote method?](11-which-jvm-thread-runs-a-remote-method.md)
 12. [Why are there two kinds of exceptions in our API?](12-why-are-there-two-kinds-of-exceptions-in-our-api.md)
+
+## Section 1 – Remote invocation
+
+13. [Step 1 of the trace: what does the lecturer's code do?](13-step-1-of-the-trace-what-does-the-lecturer-s-code.md)
