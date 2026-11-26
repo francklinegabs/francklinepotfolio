@@ -30,3 +30,4 @@ The oral check can ask any member about any part, so these cards walk through my
 18. [Why remove(subscription) and not remove(studentId)?](18-why-remove-subscription-and-not-remove-studentid.md)
 19. [What does activeFor() return?](19-what-does-activefor-return.md)
 20. [Who calls reapExpired()?](20-who-calls-reapexpired.md)
+21. [Why use a ConcurrentHashMap here?](21-why-use-a-concurrenthashmap-here.md)
