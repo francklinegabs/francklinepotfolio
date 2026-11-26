@@ -47,3 +47,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 32. [Thread vs process: address space?](32-thread-vs-process-address-space.md)
 33. [Thread vs process: what did creation really cost?](33-thread-vs-process-what-did-creation-really-cost.md)
 34. [Why is a thread switch cheaper than a process switch?](34-why-is-a-thread-switch-cheaper-than-a-process-swit.md)
+35. [What is the crash risk of a notifier thread, and how do we limit it?](35-what-is-the-crash-risk-of-a-notifier-thread-and-ho.md)
