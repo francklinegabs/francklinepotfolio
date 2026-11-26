@@ -60,3 +60,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 42. [Give two other valid fixes for 4.2 besides ours.](42-give-two-other-valid-fixes-for-4-2-besides-ours.md)
 43. [4.3: why exactly 3 threads in (ii)?](43-4-3-why-exactly-3-threads-in-ii.md)
 44. [4.3: what if the disk can serve only one request at a time?](44-4-3-what-if-the-disk-can-serve-only-one-request-at.md)
+45. [4.3 (iii): why are user-level threads no better than one thread here?](45-4-3-iii-why-are-user-level-threads-no-better-than.md)
