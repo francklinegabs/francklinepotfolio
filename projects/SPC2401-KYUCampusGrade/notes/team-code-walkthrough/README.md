@@ -51,3 +51,4 @@ The oral check can ask any member about any part, so these cards walk through my
 33. [What does --units do?](33-what-does-units-do.md)
 34. [What does --exit-after do?](34-what-does-exit-after-do.md)
 35. [What happens when the student client closes?](35-what-happens-when-the-student-client-closes.md)
+36. [What is client.callback.hostname for?](36-what-is-client-callback-hostname-for.md)
