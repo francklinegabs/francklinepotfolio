@@ -84,3 +84,4 @@ One question per card, answered from this project's own design and measured resu
 63. [How would 4 worker threads look in an Amoeba GradeService?](63-how-would-4-worker-threads-look-in-an-amoeba-grade.md)
 64. [How would Amoeba tell 2,000 students that marks are published?](64-how-would-amoeba-tell-2-000-students-that-marks-ar.md)
 65. [Two strengths of Amoeba for KYUCampusGrade?](65-two-strengths-of-amoeba-for-kyucampusgrade.md)
+66. [Two weaknesses, and the lesson modern middleware kept?](66-two-weaknesses-and-the-lesson-modern-middleware-ke.md)
