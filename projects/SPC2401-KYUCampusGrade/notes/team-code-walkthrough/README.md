@@ -40,3 +40,4 @@ The oral check can ask any member about any part, so these cards walk through my
 25. [Why does publishMarks return before the callbacks finish?](25-why-does-publishmarks-return-before-the-callbacks.md)
 26. [How long did a dead student take to fail in experiment B?](26-how-long-did-a-dead-student-take-to-fail-in-experi.md)
 27. [What does the measured 2.2 result show about the Notifier?](27-what-does-the-measured-2-2-result-show-about-the-n.md)
+28. [Why are notifier threads daemons?](28-why-are-notifier-threads-daemons.md)
