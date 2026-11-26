@@ -55,3 +55,4 @@ One question per card, answered from this project's own design and measured resu
 40. [What is the worker pool's drawback and its mitigation?](40-what-is-the-worker-pool-s-drawback-and-its-mitigat.md)
 41. [Thread vs process: what did creating each cost?](41-thread-vs-process-what-did-creating-each-cost.md)
 42. [Thread vs process: what about context switches and crashes?](42-thread-vs-process-what-about-context-switches-and.md)
+43. [Why did we run the notifier as threads inside the server?](43-why-did-we-run-the-notifier-as-threads-inside-the.md)
