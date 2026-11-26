@@ -26,3 +26,4 @@ One question per card, answered from this project's own design and measured resu
 17. [Steps 5 and 6: what happens in the implementation and on the reply path?](17-steps-5-and-6-what-happens-in-the-implementation-a.md)
 18. [Why is submitMark at-most-once?](18-why-is-submitmark-at-most-once.md)
 19. [Why is getMark at-least-once?](19-why-is-getmark-at-least-once.md)
+20. [How did we make publishMarks safe to retry?](20-how-did-we-make-publishmarks-safe-to-retry.md)
