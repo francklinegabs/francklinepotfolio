@@ -49,3 +49,4 @@ The oral check can ask any member about any part, so these cards walk through my
 31. [What does markPublished() do on the student side?](31-what-does-markpublished-do-on-the-student-side.md)
 32. [Why call getMark inside the callback on purpose?](32-why-call-getmark-inside-the-callback-on-purpose.md)
 33. [What does --units do?](33-what-does-units-do.md)
+34. [What does --exit-after do?](34-what-does-exit-after-do.md)
