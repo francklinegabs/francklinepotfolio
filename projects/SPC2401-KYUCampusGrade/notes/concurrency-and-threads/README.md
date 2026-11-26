@@ -59,3 +59,4 @@ One question per card, answered from my own package (WP3) and report Sections 3 
 41. [Why does RMI make this deadlock permanent?](41-why-does-rmi-make-this-deadlock-permanent.md)
 42. [Give two other valid fixes for 4.2 besides ours.](42-give-two-other-valid-fixes-for-4-2-besides-ours.md)
 43. [4.3: why exactly 3 threads in (ii)?](43-4-3-why-exactly-3-threads-in-ii.md)
+44. [4.3: what if the disk can serve only one request at a time?](44-4-3-what-if-the-disk-can-serve-only-one-request-at.md)
