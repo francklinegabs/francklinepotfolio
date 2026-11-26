@@ -53,3 +53,4 @@ One question per card, answered from this project's own design and measured resu
 38. [Why choose a network OS plus middleware for three servers?](38-why-choose-a-network-os-plus-middleware-for-three.md)
 39. [Why a worker pool for 2,000 students in 10 minutes?](39-why-a-worker-pool-for-2-000-students-in-10-minutes.md)
 40. [What is the worker pool's drawback and its mitigation?](40-what-is-the-worker-pool-s-drawback-and-its-mitigat.md)
+41. [Thread vs process: what did creating each cost?](41-thread-vs-process-what-did-creating-each-cost.md)
