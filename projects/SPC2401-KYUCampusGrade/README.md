@@ -40,3 +40,15 @@ Added by Ashley Odiwuor through pull request `feature/fault-handling`.
 | `src/ke/ac/kyu/campusgrade/server/RequestDeduplicator.java` | Request-ID table that makes a retried `submitMark` apply at most once |
 | `src/ke/ac/kyu/campusgrade/server/Journal.java` | Write-ahead journal, so marks and request IDs survive a server crash |
 | `src/ke/ac/kyu/campusgrade/client/LecturerClient.java` | Lecturer client: one request ID per submit, reused on every retry |
+
+## Concurrency – Eunice Gikaru (work package 3)
+
+Added by Eunice Gikaru through pull request `feature/concurrency`.
+
+| Path | What it is |
+|---|---|
+| `src/ke/ac/kyu/campusgrade/server/MarkStore.java` | Thread-safe marks store: read/write lock, (student, unit) key, publish versions |
+| `src/ke/ac/kyu/campusgrade/server/WorkerPool.java` | Worker-pool thread architecture (3.3), with the simulated 4 ms CPU + 6 ms disk cost used in 7.4 |
+| `tests/ke/ac/kyu/campusgrade/server/MarkStoreTest.java` | Unit tests for the store, including 50 threads x 1,000 puts with no lost update |
+| `tests/ke/ac/kyu/campusgrade/server/Section4ReproductionTest.java` | Reproduces the Section 4 deadlock and lost update with the original code, and shows the fix |
+| `tests/ke/ac/kyu/campusgrade/server/TestSupport.java` | Shared test helpers: manual clock, recording and dead listeners |
